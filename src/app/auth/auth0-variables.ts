@@ -6,8 +6,8 @@ interface AuthConfig {
 }
 
 export const AUTH_CONFIG: AuthConfig = {
-  clientID: '46rMUNyQaAzCheGV2aND1QGwpq2MUz5X',
+  clientID: '60clbtR4ZMZGR9oyz70XZbaGfdww4vmM',
   domain: 'dlog.auth0.com',
-  callbackURL: 'http://localhost:4200/callback',
-  apiUrl: 'http://localhost:8000'
+  callbackURL: 'http://netfron-angular.s3-website.ap-northeast-2.amazonaws.com/callback',
+  apiUrl: 'https://auth0-backend-laravel.herokuapp.com'
 };
